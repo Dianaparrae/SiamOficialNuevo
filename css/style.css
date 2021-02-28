@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(205, 165, 243);
+}
+
+.header{
+    background-color: rgb(123, 129, 180);
+    height: 70px;
+}
+
+.logo{
+    float: left;
+    padding: 10px;
+}
+
+.menu{
+    float: right;
+    margin: 24px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.banner{
+    background-image: url(../img/siam_1.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h1{
+    text-align: center;
+    font-size: 45px;
+    padding: 200px 200px 0px 200px;
+    color: rgb(157, 89, 212);
+}
+
+.banner h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    color: black;
+}
+
+
+.descripcion{
+    background-color: rgb(156, 164, 238);
+    color: white;
+    padding: 10px 30px 30px 30px;
+    text-align: center;
+    text-align: justify;
+}
+
+.descripcion h3{
+    text-align: center;
+    padding: 5px;
+}
+
+.publicacion{
+    background-repeat: no-repeat;
+    margin: 20px 300px 20px 300px;
+}
+
+footer{
+    background-color: rgb(123, 129, 180);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 15px;
+}
